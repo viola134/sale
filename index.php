@@ -1,4 +1,5 @@
 <?php
+header("Refresh:1");
 $now = time();
 $future = mktime (24,0,0,12,31,2022);
 echo "Сегодняшняя дата:"." ". date("l d F Y G:i:s", $now);
